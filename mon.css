@@ -1,93 +1,105 @@
+/* section concernant le corps de mon cv */
+.corps{
+	background-color: #fcfdfd;
+	border: 6px solid;
+	border-radius: 6px;
+	width: 70%;
+	margin: auto;
+}
+
+/* section pour lt titre de mon cv */
 h1{
 	text-align: center;
 	font-size: 30px;
 	width: 100%;
 	height: 50px;
-	
-}
-#ss{
-	background-color:#939597;
-
-}
-h2{
-	
-	text-align: center;
 }
 
-.qd{
-	border-radius: 100px;
-	
-
-}
-
+/* section contenant la dive gauche et droitess */
 .principal{
 	display: flex;
-	/* position: relative;
-	bottom: 40px; */
-	
-	
 }
+
+/* section div gauche */
 
 .gauche{
 	float: left;
 	background-color:#939597; 
 	font-size: 15px;  
-	width: 40%;
-	
-	
-
+	width: 40%; 
 }
+	
+/* section mon image */
+img{
+	margin-left: 25%;
+	border-radius: 100px ;
+}
+
+/* setion titre de niveau 2 h2 */
+
+h2{
+	
+	text-align: center;
+}
+
+/* section soft skillss */
+
+.soft{
+	position: relative;
+	bottom: 40px;
+	left: 8px;
+}
+
+/* section dev web et mobile */
+.dev{
+	position: relative;
+	bottom: 44px;
+	right: 80px;
+}
+
+/* section loisirs */
+.puz{
+	position: relative;
+	bottom: 44px;
+	left: 25px;
+}
+
+/* section réseaux sociaux */
+
+#res{
+	position: relative;
+	bottom: 40px;
+	right: 24px;
+}
+ 
+/* section pour le fond de la div gauche */
+#ss{
+	background-color:#939597;
+}
+/* fin de la div gauche */
+
+
+/* section div droite */
 
 .droite{
 	float: right;
 	background-color:#e0e6e5;
 	font-size: 15px;
-	width: 60%;
-	
-}
-.corps{
-	background-color: #fcfdfd;
-	border: 6px solid;
-	border-radius: 6px;
-	width: 60%;
-	margin: auto;
+	width: 60%;	
 }
 
-
-#deplace{
-	padding-left: 90px;
-}
-
-.okay{
-	padding-right: 90px;
-}
-
-a{
-	text-decoration: none;
-}
-
+/* section pour deplacer les paragraphe vers la droite */
 p{
 	margin-left: 5%;
 }
 
-img{
-	margin-left: 25%;
-}
+/* fin d'élaboration de mon curriculum vitae */
 
-.soft{
-	position: relative;
-	bottom: 40px;
-	right: 5px;
-}
 
-#res{
-	position: relative;
-	bottom: 40px;
-	right: 40px;
-}
 
-.puz{
-	position: relative;
-	bottom: 44px;
-	left: 12px;
-}
+
+
+
+
+
+
